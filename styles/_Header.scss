@@ -1,13 +1,16 @@
 #header{
-    border: 2px solid black;
+    background: #333;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    #logo{
+        color: silver;
+    }
     #hamburger{
         display: none;
         .line{
-            background: black;
+            background: silver;
             width: 30px;
             margin: 3px;
             height: 3px;
@@ -21,7 +24,7 @@
         list-style: none;
         li a{
             text-decoration: none;
-            color: black;
+            color: silver;
             padding: 1em;
         }
     }
@@ -29,7 +32,6 @@
 
 @media(max-width: 700px){
     #header{
-        background: silver;
         #hamburger{
             display: block;
         }
