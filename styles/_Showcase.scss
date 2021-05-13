@@ -1,0 +1,47 @@
+#showcase{
+    background-image: url("/images/showcase.jpeg");
+    height: 600px;
+    //width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: silver;
+    font-size: 60px;
+}
+
+.social-bar{
+    display: flex;
+    background: black;
+    opacity: 0.9;
+    margin-top: -5.5em;
+    width: 40%;;
+    margin-left: 60%;
+    padding: 2em;
+    .social-link{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: auto;
+        li a{
+            padding: 2em;
+            color: whitesmoke;
+        }
+    }
+}
+
+@media(max-width: 700px){
+    .social-bar{
+        margin-top: -9em;
+    }
+    .social-link{
+        display: flex;
+        flex-direction: column;
+    }
+}
