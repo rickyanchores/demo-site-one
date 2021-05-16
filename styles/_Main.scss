@@ -2,7 +2,7 @@
     #main-title{
         text-align: center;
     }
-    .main-card{
+    .main{
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -20,7 +20,7 @@
 
 
 @media(max-width: 700px){
-    .main-card{
+    .main{
         display: flex;
         flex-direction: column;
     }
