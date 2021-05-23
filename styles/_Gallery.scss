@@ -1,13 +1,15 @@
 #Gallery{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    .gallery-cards{
-       display: flex;
+    border: 2px solid red;
+        .gallery-cards{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 1em;
+        }
        .card{
            border: 2px red solid;
-           height: 200px;
-           width: 200px;
+           height: 400px;
+           width: 400px;
+           padding: 1em;
        }
-    }
 }
